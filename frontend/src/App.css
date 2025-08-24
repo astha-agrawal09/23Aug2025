@@ -1,0 +1,11 @@
+.a_list{
+  display: none;
+  height: 300px;
+  overflow-y: scroll;
+}
+.a_input:focus + ul.a_list{
+  display: block;
+}
+.a_category > li{
+  display: inline-block;
+}
